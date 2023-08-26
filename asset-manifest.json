@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CognisiteProject/static/css/main.442f7c51.css",
+    "main.css": "/CognisiteProject/static/css/main.ae1dfd04.css",
     "main.js": "/CognisiteProject/static/js/main.05809a0a.js",
     "static/js/787.e0e40b23.chunk.js": "/CognisiteProject/static/js/787.e0e40b23.chunk.js",
     "static/media/Background.jpg": "/CognisiteProject/static/media/Background.964518f6852c9c68042d.jpg",
     "index.html": "/CognisiteProject/index.html",
-    "main.442f7c51.css.map": "/CognisiteProject/static/css/main.442f7c51.css.map",
+    "main.ae1dfd04.css.map": "/CognisiteProject/static/css/main.ae1dfd04.css.map",
     "main.05809a0a.js.map": "/CognisiteProject/static/js/main.05809a0a.js.map",
     "787.e0e40b23.chunk.js.map": "/CognisiteProject/static/js/787.e0e40b23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.442f7c51.css",
+    "static/css/main.ae1dfd04.css",
     "static/js/main.05809a0a.js"
   ]
 }
