@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CognisiteProject/static/css/main.ae1dfd04.css",
-    "main.js": "/CognisiteProject/static/js/main.05809a0a.js",
-    "static/js/787.e0e40b23.chunk.js": "/CognisiteProject/static/js/787.e0e40b23.chunk.js",
-    "static/media/Background.jpg": "/CognisiteProject/static/media/Background.964518f6852c9c68042d.jpg",
-    "index.html": "/CognisiteProject/index.html",
-    "main.ae1dfd04.css.map": "/CognisiteProject/static/css/main.ae1dfd04.css.map",
-    "main.05809a0a.js.map": "/CognisiteProject/static/js/main.05809a0a.js.map",
-    "787.e0e40b23.chunk.js.map": "/CognisiteProject/static/js/787.e0e40b23.chunk.js.map"
+    "main.css": "/cognisiteproject/static/css/main.b2cdd0d5.css",
+    "main.js": "/cognisiteproject/static/js/main.5a1c4136.js",
+    "static/js/787.e0e40b23.chunk.js": "/cognisiteproject/static/js/787.e0e40b23.chunk.js",
+    "static/media/Background.jpg": "/cognisiteproject/static/media/Background.964518f6852c9c68042d.jpg",
+    "index.html": "/cognisiteproject/index.html",
+    "main.b2cdd0d5.css.map": "/cognisiteproject/static/css/main.b2cdd0d5.css.map",
+    "main.5a1c4136.js.map": "/cognisiteproject/static/js/main.5a1c4136.js.map",
+    "787.e0e40b23.chunk.js.map": "/cognisiteproject/static/js/787.e0e40b23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae1dfd04.css",
-    "static/js/main.05809a0a.js"
+    "static/css/main.b2cdd0d5.css",
+    "static/js/main.5a1c4136.js"
   ]
 }
