@@ -1,38 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 .App {
   text-align: center;
+  background-image: url("/src/Assets/Background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logincontainer {
+  border: 2px solid black;
+  background-color: rgba(186, 151, 151, 0.3);
+  width: 350px;
+  height: 70vh;
+  position: absolute;
+  top: 15%;
+  left: 40%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+}
+
+.formdetails {
+  border: 1px solid black;
+  background-color: rgba(179, 169, 169, 0.5);
+  height: 70%;
+  width: 80%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0 10px;
+}
+.formdetails label {
+  font-size: 18px;
+}
+.inputdiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+.input {
+  height: 23px;
+  width: 90%;
+  border: 1px solid rgb(237, 200, 200);
+  border-radius: 5px;
+  outline: none;
+}
+.check {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formdetails button {
+  width: 98%;
+  height: 25px;
+  background-color: rgba(96, 96, 97, 0.9);
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 2px;
+  transition: 0.2s ease;
+}
+button:hover {
+  transform: scale(1.02);
+  background-color: rgba(80, 80, 81, 0.9);
+}
+.checkbox {
+  height: 18px;
+  width: 18px;
+  border-radius: 4px;
+  margin-right: 3px;
+}
+.register {
+  margin-left: 16px;
+}
+/* Registration form */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.saymedia-content.com/.image/t_share/MTkyNjI5OTI5MzQ5NzUyNTY5/linear-gradient-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 55px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container2 h2 {
+  border-bottom: 1px solid black;
+  background-color: rgba(5, 5, 57, 0.7);
+  margin-top: 0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 30px;
+}
+.formcontainer {
+  min-width: 350px;
+  max-width: 25%;
+  height: 60vh;
+  position: absolute;
+  top: 28%;
+  border: 1px solid black;
+  background-color: rgba(1, 1, 18, 0.6);
+  border-radius: 10px;
+}
+.regform {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+  justify-content: space-around;
+}
+.labelinput {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 10px;
+  width: 90%;
+}
+.labelinput label {
+  font-size: 25px;
+  margin-bottom: 5px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.labelinput input {
+  height: 22px;
+  border: 1px solid rgb(245, 167, 167);
+  border-radius: 4px;
+  outline: none;
+  padding: 2px;
+}
+.checkinput {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.checkinput p {
+  margin-top: 0;
+  font-size: 15px;
+}
+.checkinput input {
+  margin-right: 0;
+  margin-left: 15px;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+}
+.regform button {
+  width: 90%;
+  height: 32px;
+  padding: 2px;
+  background-color: rgb(12, 12, 61);
+  color: white;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+.regform button:hover {
+  background-color: rgb(1, 1, 23);
+}
+.taskparent {
+  background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--F7w_snYb--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vda3askm2sbfjl717q9q.png");
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.task-form-container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 5%;
+  left: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task-form-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.task-input-container {
+  display: flex;
+}
+
+.task-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  outline: none;
+}
+
+.task-add-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+  height: 33px;
+}
+
+.task-add-button:hover {
+  background-color: #0056b3;
+}
+
+.task-list {
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.task-list-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
 }
