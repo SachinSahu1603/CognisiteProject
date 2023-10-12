@@ -40,7 +40,7 @@ export default function Register() {
       <h1>Registration form</h1>
       <div className="container2">
         <div className="formcontainer">
-          <h2>Cognisite Technologies</h2>
+          <h2>Penthara Technologies</h2>
           <div className="regform">
             <div className="labelinput">
               <label htmlFor="name">Name</label>
