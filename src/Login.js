@@ -36,7 +36,7 @@ export default function Login() {
       </div>
       <div className="logincontainer">
         <div className="title">
-          <h1>Cognisite Technologies</h1>
+          <h1>Penthara Technologies</h1>
         </div>
 
         <div className="formdetails">
